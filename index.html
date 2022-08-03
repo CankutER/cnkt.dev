@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="./utils/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <title>cnkt.dev</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="nav">
+      <div class="nav-center section-center">
+        <img src="./utils/logo.png" alt="logo" class="logo" />
+        <ul class="nav-list">
+          <li><a href="#" data-id="about" class="nav-link">about me</a></li>
+          <li><a href="#" data-id="skills" class="nav-link">skills</a></li>
+          <li><a href="#" data-id="projects" class="nav-link">projects</a></li>
+          <li><a href="#" data-id="contact" class="nav-link">contact</a></li>
+        </ul>
+        <button class="btn icon"><i class="fa-solid fa-bars"></i></button>
+      </div>
+
+      <ul class="nav-dropdown">
+        <li><a href="#" data-id="about" class="dropdown-link">about me</a></li>
+        <li><a href="#" data-id="skills" class="dropdown-link">skills</a></li>
+        <li>
+          <a href="#" data-id="projects" class="dropdown-link">projects</a>
+        </li>
+        <li><a href="#" data-id="contact" class="dropdown-link">contact</a></li>
+      </ul>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="section-center hero-center">
+        <h1>
+          <span class="greet">Hello! </span>
+          <span class="name">I'm Cankut</span>
+        </h1>
+        <h2>Proceed to learn more<span class="dots">...</span></h2>
+        <button class="btn"><a href="#about-me">about me</a></button>
+      </div>
+    </header>
+    <!-- END OF HERO -->
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="section-center">
+        <header class="section-header"><h2>about me</h2></header>
+        <article class="single-question">
+          <h3 class="question">
+            who are you?
+            <button class="showAnswer">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+          </h3>
+          <div class="underline"></div>
+          <p class="answer">
+            I am a civil engineer who is very passionate about software
+            development and now eager to follow this passion more
+            professionally. For more detailed info about me and my past
+            professional life, you can visit my
+            <a href="https://www.linkedin.com/in/cankut-er"
+              >linkedin page here</a
+            >.
+          </p>
+        </article>
+        <article class="single-question">
+          <h3 class="question">
+            why are you doing this?
+            <button class="showAnswer">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+          </h3>
+          <div class="underline"></div>
+          <p class="answer">
+            After having grown some interest in programming in 4th quarter in
+            2021, I have tried it picking up some courses online at the start of
+            2022. I simply got addicted to it and since then I dont have a day
+            without thinking about programming. This made me realize I've never
+            <strong>really</strong> liked civil engineering and what is actually
+            means doing "something you love". As the notion of doing this for
+            living has become so strong, I could not resist deciding on a career
+            change.
+          </p>
+        </article>
+        <article class="single-question">
+          <h3 class="question">
+            what is your end goal anyway?
+            <button class="showAnswer">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+          </h3>
+          <div class="underline"></div>
+          <p class="answer">
+            Well, my first goal is to step into the industry but I don't
+            necessarily set an end goal for myself. I rather try to enjoy the
+            journey. However, during this journey I surely have goals the
+            accomplish along the way. Learning constantly and using these skills
+            to be a part of something meaningful, contributive to the world
+            could broadly define the general theme. Additionally, I do want to
+            further educate myself on computer science fundamentals, actually
+            considering a master's degree as long as the suitable conditions are
+            met.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- END OF ABOUT -->
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <header class="section-header"><h2>skills</h2></header>
+      <div class="section-center skills-center">
+        <!-- HTML -->
+        <article class="single-skill" id="skill-1">
+          <header class="skill-header">
+            <div class="skill-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h2 class="skill-name">HTML</h2>
+          </header>
+          <ul class="skill-topics">
+            <li class="single-topic">structure of a web page</li>
+            <li class="single-topic">semantic tags</li>
+            <li class="single-topic">inline & block elements</li>
+            <li class="single-topic">element attributes</li>
+            <li class="single-topic">forms</li>
+            <li class="single-topic">responsive images via srcset & picture</li>
+          </ul>
+        </article>
+        <!-- end of HTML -->
+        <!-- CSS -->
+        <article class="single-skill" id="skill-2">
+          <header class="skill-header">
+            <div class="skill-icon">
+              <i class="fa-brands fa-css3"></i>
+            </div>
+            <h2 class="skill-name">CSS</h2>
+          </header>
+          <ul class="skill-topics">
+            <li class="single-topic">inheritance & specificity</li>
+            <li class="single-topic">flexbox</li>
+            <li class="single-topic">grid</li>
+            <li class="single-topic">transitions & animations</li>
+            <li class="single-topic">box-model</li>
+            <li class="single-topic">position property</li>
+            <li class="single-topic">pseudo classes & elements</li>
+          </ul>
+        </article>
+        <!-- end of CSS -->
+        <!-- JS -->
+        <article class="single-skill" id="skill-3">
+          <header class="skill-header">
+            <div class="skill-icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <h2 class="skill-name">javascript</h2>
+          </header>
+          <ul class="skill-topics">
+            <li class="single-topic">value & reference types</li>
+            <li class="single-topic">control flow & loops</li>
+            <li class="single-topic">
+              OOP, constructors & prototypal inheritance
+            </li>
+            <li class="single-topic">ES6 (arrow fs, spread & rest)</li>
+            <li class="single-topic">async JS (promises, async/await)</li>
+            <li class="single-topic">the DOM</li>
+            <li class="single-topic">fetch & consuming APIs</li>
+          </ul>
+        </article>
+        <!-- end of JS -->
+        <!-- REACT -->
+        <article class="single-skill" id="skill-4">
+          <header class="skill-header">
+            <div class="skill-icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <h2 class="skill-name">react</h2>
+          </header>
+          <ul class="skill-topics">
+            <li class="single-topic">JSX & Rules</li>
+            <li class="single-topic">useState, useEffect & useRef</li>
+            <li class="single-topic">controlled & uncontrolled inputs</li>
+            <li class="single-topic">props & children</li>
+            <li class="single-topic">lists & conditional rendering</li>
+          </ul>
+        </article>
+        <!-- end of REACT -->
+        <!-- Blockchain & web3 -->
+        <article class="single-skill" id="skill-5">
+          <header class="skill-header">
+            <div class="skill-icon">
+              <i class="fa-brands fa-ethereum"></i>
+            </div>
+            <h2 class="skill-name">web3 & dapps</h2>
+          </header>
+          <ul class="skill-topics">
+            <li class="single-topic">how blockchain works</li>
+            <li class="single-topic">solidity fundamentals</li>
+            <li class="single-topic">truffle fundamentals</li>
+            <li class="single-topic">connecting metamask to client</li>
+            <li class="single-topic">connecting front-end to blockchain</li>
+          </ul>
+        </article>
+        <!-- end of Blockchain & web3 -->
+        <button type="button" class="slide-btn right-btn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        <button type="button" class="slide-btn left-btn">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+      </div>
+    </section>
+    <!-- END OF SKILLS -->
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <header class="section-header"><h2>projects</h2></header>
+      <div class="section-center projects-center">
+        <!-- Project Find Path -->
+        <article class="single-project">
+          <div class="project-header">
+            <div class="project-img-container">
+              <img
+                src="./utils/find_path.png"
+                alt="find-path"
+                class="project-img"
+              />
+            </div>
+            <h3 class="project-title">find path</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-desc">
+              This is a relatively simple pathfinding project where I have tried
+              to derive a shortest path algorithm. Main goal was to find all
+              possible paths with weights assigned to them and store them in a
+              very large array. However, this was a failed attempt. I have still
+              included this project since I have learned a lot trying and it is
+              open to improvements in the future as an ambitious pathfinding
+              visualizer project.
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/CankutER/Find-Path"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </article>
+        <!-- End of Project Fİnd Path -->
+        <!-- Project Calculator -->
+        <article class="single-project">
+          <div class="project-header">
+            <div class="project-img-container">
+              <img
+                src="./utils/calculator.png"
+                alt="calculator"
+                class="project-img"
+              />
+            </div>
+            <h3 class="project-title">calculator without eval</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-desc">
+              This is a JS calculator project without using eval function and it
+              supports nested parantheses and allow calculation expressions just
+              like in Windows' calculator. It runs on a stack-like model to
+              handle strict priority rules. To execute the calculations w.r.t
+              priority rules, a master array is defined to store the command
+              types and order of these commands. When a calculation is
+              requested, last command in the master array is fired and sequence
+              is proceeded until the first member. Since a low priority command
+              is never stored in the last member of the master array if any
+              higher prio command is present, calculation rules are made sure to
+              be complied.
+            </div>
+          </div>
+          <div class="project-footer">
+            <a
+              href="https://github.com/CankutER/Calculator-Project-Without-Eval-"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </article>
+        <!-- End of Project Calculator -->
+
+        <!-- Project Poll -->
+        <article class="single-project">
+          <div class="project-header">
+            <div class="project-img-container">
+              <img
+                src="./utils/Poll Clipped.png"
+                alt="poll"
+                class="project-img"
+              />
+            </div>
+            <h3 class="project-title">Poll on Blockchain</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-desc">
+              This is a fun project regarding upcoming elections in Turkey where
+              I created the front-end for voting and used blockchain as the
+              database. User can connect and disconnect to MetaMask and through
+              it interact with the smart conctract deployed on blockchain via
+              voting button on front end. It is also possible for poll owner to
+              pause the voting by manipulating the smart contract. Vote counts
+              are fetched on page load and/or voting action and percentages are
+              dynamically visualized.
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/CankutER/Poll-Web3"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </article>
+        <!-- End of Project Poll -->
+
+        <!-- Vanilla JS Mini Projects -->
+        <article class="single-project">
+          <div class="project-header">
+            <div class="project-img-container">
+              <img
+                src="./utils/Js-mini-projects-resized.jpg"
+                alt="js"
+                class="project-img"
+              />
+            </div>
+            <h3 class="project-title">JS Mini Projects</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-desc">
+              This is a repository including many different Vanilla Javascript
+              projects I have completed for practise purposes. They include CRUD
+              app on local storage, smooth scroll, several fetch/display apps,
+              pagination and more. This is also a decent reference for myself to
+              keep for reminders/revisits in the future.
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/CankutER/Js-Mini-Projects"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Vanilla JS Mini Projects -->
+
+        <!-- React Mini Projects -->
+        <article class="single-project">
+          <div class="project-header">
+            <div class="project-img-container">
+              <img
+                src="./utils/react-mini-projects-resized.jpg"
+                alt="react"
+                class="project-img"
+              />
+            </div>
+            <h3 class="project-title">React Mini Projects</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-desc">
+              This is a repository including several React projects I have
+              completed for practise purposes. They include CRUD app on local
+              storage, color shades visualizer, lorem-ipsum generator, slider
+              and more. This is also a decent reference for myself to keep for
+              reminders/revisits in the future.
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/CankutER/react-mini-projects"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </article>
+        <!-- React Mini Projects -->
+
+        <!-- CNKT.DEV PROJECT -->
+        <article class="single-project">
+          <div class="project-header">
+            <div class="project-img-container">
+              <img
+                src="./utils/cnkt-dev.png"
+                alt="cnkt-dev"
+                class="project-img"
+              />
+            </div>
+            <h3 class="project-title">cnkt.dev project</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-desc">
+              This is the repository for my portfolio website you are currently
+              visiting :).
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/CankutER/cnkt.dev"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </article>
+        <!-- CNKT.DEV PROJECT -->
+      </div>
+    </section>
+    <!-- END OF PROJECTS -->
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <h3 class="contact-title">contact me</h3>
+      <div class="form-center">
+        <form
+          action="https://formspree.io/f/myyvgnqn"
+          method="POST"
+          class="contact-form"
+        >
+          <div class="form-control">
+            <label for="nameArea">Your Name: </label>
+            <input type="text" name="name" id="nameArea" />
+          </div>
+          <div class="form-control">
+            <label for="emailArea">Your e-Mail: </label>
+            <input type="email" name="email" id="emailArea" />
+          </div>
+          <div class="form-control">
+            <label for="message">Your Message: </label>
+            <textarea
+              name="message"
+              id="message"
+              cols="25"
+              rows="10"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="submit-btn btn" />
+        </form>
+        <div class="contact-icon">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+      </div>
+    </section>
+    <!-- END OF CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>cnkt.dev <span class="copy">&copy;</span> 2022 all rights reserved.</p>
+    </footer>
+    <!-- END OF FOOTER -->
+    <script src="./app.js"></script>
+  </body>
+</html>
