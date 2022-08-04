@@ -90,8 +90,12 @@ window.addEventListener("resize", () => {
 const navbar = document.querySelector("nav");
 const navCenter = document.querySelector(".nav-center");
 
-navbar.addEventListener("click", (e) => {
-  if (e.target.matches(".nav-link") || e.target.matches(".dropdown-link")) {
+window.addEventListener("click", (e) => {
+  if (
+    e.target.matches(".nav-link") ||
+    e.target.matches(".dropdown-link") ||
+    e.target.matches(".hero-link")
+  ) {
     e.preventDefault();
     const id = e.target.dataset.id;
     const scrollTarget = document.getElementById(id);
