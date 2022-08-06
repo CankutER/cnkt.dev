@@ -157,6 +157,7 @@ nav {
 }
 .logo {
   height: 4rem;
+  cursor: pointer;
 }
 
 .nav-list {

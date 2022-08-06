@@ -3,6 +3,7 @@ const navToggle = document.querySelector(".icon");
 const answerToggles = document.querySelectorAll(".showAnswer");
 const skills = document.querySelectorAll(".single-skill");
 const skillBtns = document.querySelectorAll(".slide-btn");
+const logo = document.querySelector(".logo");
 let skillsCounter = 1;
 navToggle.addEventListener("click", (e) => {
   navDrop.classList.toggle("show-dropdown");
@@ -111,6 +112,10 @@ window.addEventListener("click", (e) => {
         .firstElementChild.classList.toggle("icon-rotate");
     }
   }
+});
+
+logo.addEventListener("click", () => {
+  window.scrollTo({ top: 0 });
 });
 
 // END OF SMOOTH SCROLL
