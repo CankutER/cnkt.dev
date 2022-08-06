@@ -233,6 +233,7 @@ nav {
   align-content: center;
   justify-items: center;
   gap: 2rem;
+  text-align: center;
 }
 
 .hero-center > h2 {
