@@ -529,6 +529,7 @@ nav {
 .project-footer {
   text-align: center;
   display: flex;
+  gap: 1.5rem;
   align-items: center;
   justify-content: center;
   color: var(--clr-cyan-darker);
