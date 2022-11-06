@@ -226,6 +226,47 @@
     <section class="projects" id="projects">
       <header class="section-header"><h2>projects</h2></header>
       <div class="section-center projects-center">
+        <!-- Project Tetris -->
+        <article class="single-project">
+          <div class="project-header">
+            <div class="project-img-container">
+              <img src="./utils/tetris.png" alt="tetris" class="project-img" />
+            </div>
+            <h3 class="project-title">Tetris</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-desc">
+              This is a prototype of the popular game Tetris. Project is coded
+              in a OOP approach where JS class syntax is used.
+              RequestAnimationFrame API is utilized to model a sequence for
+              class method calls for every certain time interval. Project is
+              based on storing ids for the divs that are the CSS grid children
+              and manipulating these ids every interval. As these ids imply the
+              coordinates of the relevant divs in the layout, it was possible to
+              make a DOM selection using them and do whatever action is
+              necessary with the selected DOM element. As for the 2D rotation
+              logic, I have implemented a global function where an anchor point
+              is chosen considering the number of elements that anchor connects
+              to, and then the members of the existing shape is looped over all
+              to find their x and y distances relative to the anchor point.
+              Finally, horizontal distance is equated to the vertical distance
+              and vertical distance is equated to the horizontal distance of the
+              rotated state to simulate a 90 degrees rotation. It should be
+              noted that project is subject to relatively minor gameplay
+              improvements and some styling upgrades.
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/CankutER/Tetris-Project" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://cnkt-tetris-project.netlify.app/" target="_blank"
+              ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </article>
+        <!-- End of Project Tetris -->
         <!-- Project Dynamic-Wordle -->
         <article class="single-project">
           <div class="project-header">
